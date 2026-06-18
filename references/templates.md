@@ -56,7 +56,7 @@ For a subsystem with non-obvious rules. Proximity: it lives *with* the code.
 
 ## Decision log — `docs/DECISIONS.md`
 
-Captures the *why* behind choices — the head-knowledge that's otherwise lost. Append-only.
+Captures the *why* behind choices — the head-knowledge that's otherwise lost. Append-only. Only fill these fields from a real source (commit, PR, comment, or the maintainer); if the rationale isn't recoverable, write `TODO: confirm with maintainer` — don't invent it.
 
 ```markdown
 # Decisions
@@ -86,6 +86,8 @@ Answers "current state" and "what's next" so a fresh agent rebuilds context fast
 ---
 
 ## Verification — `docs/VERIFY.md` (or a section in the entry file)
+
+The least likely file to be warranted — keep this in the entry file's "Run & verify" section unless verification is genuinely multi-layered.
 
 ```markdown
 # Verify

@@ -6,7 +6,7 @@ This skill applies the documentation ideas from **"Harness Engineering: Stop Bla
 
 > "Information that doesn't exist in the repo doesn't exist for the agents."
 
-Anything living only in someone's head, a Slack thread, or a closed ticket is invisible to a fresh agent. The highest-value documentation captures exactly this kind of knowledge — the *non-obvious why*, the gotchas, the "we tried X and it broke." Don't waste lines restating what the code already shows.
+Anything living only in someone's head, a Slack thread, or a closed ticket is invisible to a fresh agent. The highest-value documentation captures exactly this kind of knowledge — the *non-obvious why*, the gotchas, the "we tried X and it broke." Capturing it means *asking the maintainer* for what you can't recover from the repo — never inventing plausible rationale to fill the gap. Don't waste lines restating what the code already shows.
 
 ## Progressive disclosure
 
@@ -38,6 +38,8 @@ Any agent picking up the repo cold needs these answered fast — make sure the I
 3. What's the **current state**?
 4. What's **next**?
 
+Keep these quick to reach — getting to a runnable, verifiable environment shouldn't be buried inside feature-level detail.
+
 ## The six documentation principles
 
 1. **Proximity** — keep rules near the code they govern (subdirectory docs over a distant wiki).
@@ -50,7 +52,3 @@ Any agent picking up the repo cold needs these answered fast — make sure the I
 ## Verification & observability
 
 Don't let docs assert success vaguely. Make claims **checkable**: name the exact command and what a pass looks like. Good error/verification guidance is specific — "`POST /api/reset-password` returns 500 → check `EMAIL_API_KEY`" beats "the endpoint fails sometimes." Where practical, actually run the command before documenting it.
-
-## Initialization vs. implementation
-
-Separate "how to get a runnable, verifiable environment" (initialization) from "how features are built" (implementation). The startup-readiness material — run, test, state, next — should be quick to reach and not tangled into feature-level detail.
