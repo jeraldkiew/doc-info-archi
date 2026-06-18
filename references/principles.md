@@ -1,6 +1,6 @@
 # Principles — Progressive Disclosure & Harness Engineering
 
-This skill applies the documentation ideas from **"Harness Engineering"** (https://prittamravi.dev/writing/harness-engineering/) to the narrow job of structuring a codebase's docs for AI agents. Read this file when you need the reasoning behind a recommendation, not just the steps.
+This skill applies the documentation ideas from **"Harness Engineering: Stop Blaming the Model"** by **Prittam Ravi** (https://prittamravi.dev/writing/harness-engineering/) to the narrow job of structuring a codebase's docs for AI agents. Read this file when you need the reasoning behind a recommendation, not just the steps.
 
 ## The repo is the system of record
 

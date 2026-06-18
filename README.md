@@ -40,6 +40,10 @@ Or, for a single project, clone into `.claude/skills/` inside the repo.
 
 Ask Claude to *"document this codebase"*, *"set up AGENTS.md"*, *"organize the docs"*, or invoke `/doc-info-archi` directly.
 
+## Credits
+
+The documentation principles this skill operationalizes come from **["Harness Engineering: Stop Blaming the Model"](https://prittamravi.dev/writing/harness-engineering/) by Prittam Ravi** — including the repo as the system of record, the five harness subsystems, and the six documentation principles. This skill adapts those ideas to the specific task of structuring a codebase's docs; all credit for the underlying framework goes to the original author.
+
 ## License
 
 MIT — see [LICENSE](LICENSE).
